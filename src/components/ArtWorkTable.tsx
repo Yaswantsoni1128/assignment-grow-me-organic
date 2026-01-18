@@ -187,6 +187,7 @@ function ArtWorkTable(){
       <DataTable
         value={artworks}
         loading={loading}
+        selectionMode="multiple"
         paginator
         rows={rowsPerPage}
         totalRecords={totalRecords}
